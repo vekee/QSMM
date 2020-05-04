@@ -14,8 +14,6 @@
     			$('.js-fh5co-nav-toggle').removeClass('active');
 				
 	    	}
-	    
-	    	
 	    }
 		});
 
@@ -300,6 +298,7 @@
 
 	
 	$(function(){
+		console.log("menu create");
 		mobileMenuOutsideClick();
 		offcanvasMenu();
 		burgerMenu();
@@ -315,9 +314,10 @@
 
 }());
 
-$(function () {
-	$("#header").load("/pages/common/header.html", function () {
-    });
+$(function(){
+	// $("#header").load("/pages/common/header.html", function () {
+	// 	console.log("header load");
+    // });
 
 	$("#footer").load("/pages/common/footer.html", function () {
         date = new Date();
