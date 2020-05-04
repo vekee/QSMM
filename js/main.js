@@ -5,13 +5,13 @@
 	var mobileMenuOutsideClick = function() {
 
 		$(document).click(function (e) {
-	    var container = $("#fh5co-offcanvas, .js-fh5co-nav-toggle");
+	    var container = $("#qqmm-offcanvas, .js-qqmm-nav-toggle");
 	    if (!container.is(e.target) && container.has(e.target).length === 0) {
 
 	    	if ( $('body').hasClass('offcanvas') ) {
 
     			$('body').removeClass('offcanvas');
-    			$('.js-fh5co-nav-toggle').removeClass('active');
+    			$('.js-qqmm-nav-toggle').removeClass('active');
 				
 	    	}
 	    }
@@ -22,15 +22,15 @@
 
 	var offcanvasMenu = function() {
 
-		$('#page').prepend('<div id="fh5co-offcanvas" />');
-		$('#page').prepend('<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle fh5co-nav-white"><i></i></a>');
+		$('#page').prepend('<div id="qqmm-offcanvas" />');
+		$('#page').prepend('<a href="#" class="js-qqmm-nav-toggle qqmm-nav-toggle qqmm-nav-white"><i></i></a>');
 		var clone1 = $('.menu-1 > ul').clone();
-		$('#fh5co-offcanvas').append(clone1);
+		$('#qqmm-offcanvas').append(clone1);
 		var clone2 = $('.menu-2 > ul').clone();
-		$('#fh5co-offcanvas').append(clone2);
+		$('#qqmm-offcanvas').append(clone2);
 
-		$('#fh5co-offcanvas .has-dropdown').addClass('offcanvas-has-dropdown');
-		$('#fh5co-offcanvas')
+		$('#qqmm-offcanvas .has-dropdown').addClass('offcanvas-has-dropdown');
+		$('#qqmm-offcanvas')
 			.find('li')
 			.removeClass('has-dropdown');
 
@@ -57,7 +57,7 @@
 			if ( $('body').hasClass('offcanvas') ) {
 
     			$('body').removeClass('offcanvas');
-    			$('.js-fh5co-nav-toggle').removeClass('active');
+    			$('.js-qqmm-nav-toggle').removeClass('active');
 				
 	    	}
 		});
@@ -66,7 +66,7 @@
 
 	var burgerMenu = function() {
 
-		$('body').on('click', '.js-fh5co-nav-toggle', function(event){
+		$('body').on('click', '.js-qqmm-nav-toggle', function(event){
 			var $this = $(this);
 
 
@@ -145,21 +145,21 @@
 	var tabs = function() {
 
 		// Auto adjust height
-		$('.fh5co-tab-content-wrap').css('height', 0);
+		$('.qqmm-tab-content-wrap').css('height', 0);
 		var autoHeight = function() {
 
 			setTimeout(function(){
 
-				var tabContentWrap = $('.fh5co-tab-content-wrap'),
-					tabHeight = $('.fh5co-tab-nav').outerHeight(),
+				var tabContentWrap = $('.qqmm-tab-content-wrap'),
+					tabHeight = $('.qqmm-tab-nav').outerHeight(),
 					formActiveHeight = $('.tab-content.active').outerHeight(),
 					totalHeight = parseInt(tabHeight + formActiveHeight + 90);
 
 					tabContentWrap.css('height', totalHeight );
 
 				$(window).resize(function(){
-					var tabContentWrap = $('.fh5co-tab-content-wrap'),
-						tabHeight = $('.fh5co-tab-nav').outerHeight(),
+					var tabContentWrap = $('.qqmm-tab-content-wrap'),
+						tabHeight = $('.qqmm-tab-nav').outerHeight(),
 						formActiveHeight = $('.tab-content.active').outerHeight(),
 						totalHeight = parseInt(tabHeight + formActiveHeight + 90);
 
@@ -174,7 +174,7 @@
 
 
 		// Click tab menu
-		$('.fh5co-tab-nav a').on('click', function(event){
+		$('.qqmm-tab-nav a').on('click', function(event){
 			
 			var $this = $(this),
 				tab = $this.data('tab');
@@ -182,14 +182,14 @@
 			$('.tab-content')
 				.addClass('animated-fast fadeOutDown');
 
-			$('.fh5co-tab-nav li').removeClass('active');
+			$('.qqmm-tab-nav li').removeClass('active');
 			
 			$this
 				.closest('li')
 					.addClass('active')
 
 			$this
-				.closest('.fh5co-tabs')
+				.closest('.qqmm-tabs')
 					.find('.tab-content[data-tab-content="'+tab+'"]')
 					.removeClass('animated-fast fadeOutDown')
 					.addClass('animated-fast active fadeIn');
@@ -230,7 +230,7 @@
 
 	// Loading page
 	var loaderPage = function() {
-		$(".fh5co-loader").fadeOut("slow");
+		$(".qqmm-loader").fadeOut("slow");
 	};
 
 	var counter = function() {
@@ -242,8 +242,8 @@
 	};
 
 	var counterWayPoint = function() {
-		if ($('#fh5co-counter').length > 0 ) {
-			$('#fh5co-counter').waypoint( function( direction ) {
+		if ($('#qqmm-counter').length > 0 ) {
+			$('#qqmm-counter').waypoint( function( direction ) {
 										
 				if( direction === 'down' && !$(this.element).hasClass('animated') ) {
 					setTimeout( counter , 400);					
@@ -255,7 +255,7 @@
 
 	var sliderMain = function() {
 		
-	  	$('#fh5co-hero .flexslider').flexslider({
+	  	$('#qqmm-hero .flexslider').flexslider({
 			animation: "fade",
 			slideshowSpeed: 5000,
 			directionNav: true,
@@ -274,9 +274,9 @@
 
 	  	});
 
-	  	$('#fh5co-hero .flexslider .slides > li').css('height', $(window).height());	
+	  	$('#qqmm-hero .flexslider .slides > li').css('height', $(window).height());	
 	  	$(window).resize(function(){
-	  		$('#fh5co-hero .flexslider .slides > li').css('height', $(window).height());	
+	  		$('#qqmm-hero .flexslider .slides > li').css('height', $(window).height());	
 	  	});
 
 	};
