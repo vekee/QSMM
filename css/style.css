@@ -11,8 +11,7 @@
 *
 * ======================================================= */
 body {
-  font-family: "Playfair Display", serif;
-  font-weight: 400;
+  font-family: 'Josefin Sans', -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif;  font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
   color: #828282;
@@ -64,7 +63,7 @@ p {
 
 h1, h2, h3, h4, h5, h6, figure {
   color: #000;
-  font-family: "Montserrat", Arial, sans-serif;
+  font-family: 'Josefin Sans', -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
 }
@@ -99,7 +98,7 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 0;
   text-transform: uppercase;
   font-weight: bold;
-  font-family: "Montserrat", Arial, sans-serif;
+  font-family: 'Josefin Sans', -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif;
 }
 .qqmm-nav a {
   padding: 5px 10px;
@@ -113,7 +112,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .qqmm-nav .menu-2 li.search {
   float: left;
   width: 83%;
-  font-family: "Playfair Display", serif;
+  font-family: 'Josefin Sans', -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
@@ -183,7 +182,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0;
   list-style: none;
   display: inline-block;
-  font-family: "Montserrat", Arial, sans-serif;
+  font-family: 'Josefin Sans', -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif;
 }
 .qqmm-nav ul li a {
   font-size: 13px;
@@ -558,7 +557,6 @@ h1, h2, h3, h4, h5, h6, figure {
   left: 0;
   top: .05em;
   font-family: 'icomoon';
-  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -622,7 +620,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 20px;
   line-height: 1.5;
   margin-bottom: 30px;
-  font-family: "Playfair Display", serif;
+  font-family: 'Josefin Sans', -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif;
 }
 #qqmm-header .display-tc h2 a,
 #qqmm-counter .display-tc h2 a,
@@ -677,7 +675,7 @@ h1, h2, h3, h4, h5, h6, figure {
   text-transform: uppercase;
   color: rgba(0, 0, 0, 0.5);
   letter-spacing: 1px;
-  font-family: "Montserrat", Arial, sans-serif;
+  font-family: 'Josefin Sans', -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif;
 }
 #qqmm-counter .feature-center {
   padding: 40px 20px;
@@ -972,7 +970,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background: rgba(0, 0, 0, 0.04);
 }
 .qqmm-tabs .qqmm-tab-content-wrap .feed > div h3 {
-  font-family: "Playfair Display", serif;
+  font-family: 'Josefin Sans', -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif;
   font-size: 18px;
   display: inline-block;
   padding-right: 20px;
@@ -1025,7 +1023,7 @@ h1, h2, h3, h4, h5, h6, figure {
   text-transform: uppercase;
   font-size: 12px;
   letter-spacing: 2px;
-  font-family: "Montserrat", Arial, sans-serif;
+  font-family: 'Josefin Sans', -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif;
 }
 
 #qqmm-testimonial {
@@ -1241,7 +1239,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #qqmm-offcanvas ul li.search {
   float: left;
   width: 100%;
-  font-family: "Playfair Display", serif;
+  font-family: 'Josefin Sans', -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
@@ -1491,7 +1489,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: "Montserrat", Arial, sans-serif;
+  font-family: 'Josefin Sans', -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif;
   font-size: 16px;
   font-weight: 400;
   -webkit-border-radius: 2px;
