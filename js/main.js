@@ -298,7 +298,6 @@
 
 	
 	$(function(){
-		console.log("menu create");
 		mobileMenuOutsideClick();
 		offcanvasMenu();
 		burgerMenu();
@@ -315,21 +314,8 @@
 }());
 
 $(function(){
-	// $("#header").load("/pages/common/header.html", function () {
-	// 	console.log("header load");
-    // });
-
 	$("#footer").load("/pages/common/footer.html", function () {
         date = new Date();
         $("#copyright").text("Copyright © " + date.getFullYear() + " 全生苗木 inc. All rights Reserved.");
     });
-
-	function getBaseUrl() {
-		var re = new RegExp(/^.*\//);
-		return re.exec(window.location.href);
-	}
-	
-	function getRootUrl() {
-		return window.location.origin?window.location.origin+'/':window.location.protocol+'/'+window.location.host+'/';
-	}
 });
