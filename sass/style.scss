@@ -170,13 +170,13 @@ h1, h2, h3, h4, h5, h6, figure {
   background: $brand-primary;
 }
 
-.qqmm-nav {
+.qsmm-nav {
 	padding: 18px 0;
 	background: $brand-white;
 	@media screen and (max-width: $screen-sm) {
 		padding: 20px 0;
 	}
-	#qqmm-logo {
+	#qsmm-logo {
 		font-size: 20px;
 		margin: 0;
 		padding: 0;
@@ -367,7 +367,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 
-#qqmm-hero {
+#qsmm-hero {
 	min-height: 700px;
 	background: $brand-white url(../images/loader.gif) no-repeat center center;
 	.btn {
@@ -444,7 +444,7 @@ h1, h2, h3, h4, h5, h6, figure {
 					font-size: 18px;
 				}
 
-				.qqmm-lead {
+				.qsmm-lead {
 					font-size: 20px;
 					color: $brand-white;
 					.icon-heart {
@@ -457,15 +457,15 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 
-#qqmm-header,
-#qqmm-counter,
-.qqmm-bg {
+#qsmm-header,
+#qsmm-counter,
+.qsmm-bg {
 	background-size: cover;
 	background-position: top center;
 	background-repeat: no-repeat;
 	position: relative;
 }
-.qqmm-bg {
+.qsmm-bg {
 	background-size: cover;
 	background-position: center center;
 	position: relative;
@@ -474,7 +474,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	position: relative;
 }
 
-// .qqmm-video {
+// .qsmm-video {
 // 	// height: 450px;
 // 	overflow: hidden;
 // 	// @include border-radius(7px);
@@ -532,7 +532,7 @@ h1, h2, h3, h4, h5, h6, figure {
 // 	}
 // }
 
-#qqmm-counter {
+#qsmm-counter {
 	height: 500px;
 	.display-t,
 	.display-tc {
@@ -558,7 +558,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 }
 
-.qqmm-cover {
+.qsmm-cover {
 	height: 800px;
 
 	background-size: cover;
@@ -576,7 +576,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		right: 0;
 		background: rgba($brand-black,.2);
 	}
-	> .qqmm-container {
+	> .qsmm-container {
 		position: relative;
 		z-index: 10;
 	}
@@ -594,7 +594,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		}
 	}	
 
-	&.qqmm-cover-sm {
+	&.qsmm-cover-sm {
 		height: 600px;
 		@media screen and (max-width: $screen-sm) {
 			height: 400px;
@@ -621,7 +621,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		margin-bottom: 3em;
 	}
 }
-.qqmm-staff { 
+.qsmm-staff { 
 	text-align: center;
 	margin-bottom: 30px;
 	img {
@@ -644,7 +644,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 }
 
-.qqmm-social-icons {
+.qsmm-social-icons {
 	margin: 0;
 	padding: 0;
 	li {
@@ -664,7 +664,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 }
 
-.qqmm-contact-info {
+.qsmm-contact-info {
 	ul {
 		padding: 0;
 		margin: 0;
@@ -716,9 +716,9 @@ h1, h2, h3, h4, h5, h6, figure {
 // }
 
 
-#qqmm-header,
-#qqmm-counter,
-.qqmm-cover {
+#qsmm-header,
+#qsmm-counter,
+.qsmm-cover {
 	.display-tc {
 		display: table-cell!important;
 		vertical-align: middle;
@@ -775,7 +775,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 }
 
-#qqmm-counter {	
+#qsmm-counter {	
 	text-align: center;
 	.counter {
 		font-size: 50px;
@@ -821,18 +821,18 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 
-.qqmm-bg-section{
+.qsmm-bg-section{
 	background: rgba($brand-black,.05);
 }
 
-#qqmm-services,
-#qqmm-started,
-#qqmm-testimonial,
-#qqmm-started,
-#qqmm-product,
-#qqmm-about,
-#qqmm-contact,
-#qqmm-footer{
+#qsmm-services,
+#qsmm-started,
+#qsmm-testimonial,
+#qsmm-started,
+#qsmm-product,
+#qsmm-about,
+#qsmm-contact,
+#qsmm-footer{
 	padding: 7em 0;
 	clear: both;
 	@media screen and (max-width: $screen-sm) {
@@ -977,8 +977,8 @@ h1, h2, h3, h4, h5, h6, figure {
 	margin-bottom: 7em;
 }
 
-.qqmm-tabs {
-	.qqmm-tab-nav {
+.qsmm-tabs {
+	.qsmm-tab-nav {
 		clear: both;
 		margin: 0 0 3em 0;
 		padding: 3px;
@@ -1015,7 +1015,7 @@ h1, h2, h3, h4, h5, h6, figure {
 			}
 		}
 	}
-	.qqmm-tab-content-wrap {
+	.qsmm-tab-content-wrap {
 		clear: both;
 		position: relative;
 		top: 70px;
@@ -1098,9 +1098,9 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 
-.qqmm-heading {
+.qsmm-heading {
 	margin-bottom: 5em;
-	&.qqmm-heading-sm {
+	&.qsmm-heading-sm {
 		margin-bottom: 2em;
 	}
 	h2 {
@@ -1127,7 +1127,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 }
 
-#qqmm-testimonial {
+#qsmm-testimonial {
 	background: #efefef;
 	.testimony-slide{
 		// display: none;
@@ -1182,10 +1182,10 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 }
 
-#qqmm-started {
+#qsmm-started {
 	background: rgba($brand-primary,1);
 	
-	.qqmm-heading {
+	.qsmm-heading {
 		h2 {
 			color: $brand-white;
 			margin-bottom: 20px !important;
@@ -1246,9 +1246,9 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 }
 
-#qqmm-footer {
+#qsmm-footer {
 	background: #efefef;
-	.qqmm-footer-links {
+	.qsmm-footer-links {
 		padding: 0;
 		margin: 0;	
 		li {
@@ -1264,7 +1264,7 @@ h1, h2, h3, h4, h5, h6, figure {
 			}
 		}
 	}
-	.qqmm-widget {
+	.qsmm-widget {
 		margin-bottom: 30px;
 		@media screen and (max-width: $screen-sm){
 			text-align: left;
@@ -1299,7 +1299,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 
 // off canvas
-#qqmm-offcanvas {
+#qsmm-offcanvas {
 	position: absolute;
 	z-index: 1901;
 	width: 270px;
@@ -1472,7 +1472,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 
 // Burger Menu
-.qqmm-nav-toggle {
+.qsmm-nav-toggle {
   width:25px;
   height:25px;
   cursor: pointer;
@@ -1507,7 +1507,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		  transition:all .2s ease-out;
 	  }
   }
-  &.qqmm-nav-white {
+  &.qsmm-nav-white {
   	> i {
   		color:$brand-white;
   		background: $brand-black;
@@ -1518,22 +1518,22 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 
-.qqmm-nav-toggle i::before {
+.qsmm-nav-toggle i::before {
   top: -7px;
 }
-.qqmm-nav-toggle i::after {
+.qsmm-nav-toggle i::after {
   bottom: -7px;
 }
-.qqmm-nav-toggle:hover i::before {
+.qsmm-nav-toggle:hover i::before {
   top: -10px;
 }
-.qqmm-nav-toggle:hover i::after {
+.qsmm-nav-toggle:hover i::after {
   bottom: -10px;
 }
-.qqmm-nav-toggle.active i {
+.qsmm-nav-toggle.active i {
 	background: transparent;
 }
-.qqmm-nav-toggle.active i::before {
+.qsmm-nav-toggle.active i::before {
 	background: $brand-white;
   top:0;
   -webkit-transform: rotateZ(45deg);
@@ -1542,7 +1542,7 @@ h1, h2, h3, h4, h5, h6, figure {
        -o-transform: rotateZ(45deg);
           transform: rotateZ(45deg);
 }
-.qqmm-nav-toggle.active i::after {
+.qsmm-nav-toggle.active i::after {
 	background: $brand-white;
   bottom:0;
   -webkit-transform: rotateZ(-45deg);
@@ -1551,7 +1551,7 @@ h1, h2, h3, h4, h5, h6, figure {
        -o-transform: rotateZ(-45deg);
           transform: rotateZ(-45deg);
 }
-.qqmm-nav-toggle {
+.qsmm-nav-toggle {
   position: absolute;
   right: 0px;
   top: 10px;
@@ -1738,7 +1738,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	padding-bottom: 2em!important;
 }
 
-.qqmm-loader {
+.qsmm-loader {
 	position: fixed;
 	left: 0px;
 	top: 0px;

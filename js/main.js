@@ -5,13 +5,13 @@
 	var mobileMenuOutsideClick = function() {
 
 		$(document).click(function (e) {
-	    var container = $("#qqmm-offcanvas, .js-qqmm-nav-toggle");
+	    var container = $("#qsmm-offcanvas, .js-qsmm-nav-toggle");
 	    if (!container.is(e.target) && container.has(e.target).length === 0) {
 
 	    	if ( $('body').hasClass('offcanvas') ) {
 
     			$('body').removeClass('offcanvas');
-    			$('.js-qqmm-nav-toggle').removeClass('active');
+    			$('.js-qsmm-nav-toggle').removeClass('active');
 				
 	    	}
 	    }
@@ -22,15 +22,15 @@
 
 	var offcanvasMenu = function() {
 
-		$('#page').prepend('<div id="qqmm-offcanvas" />');
-		$('#page').prepend('<a href="#" class="js-qqmm-nav-toggle qqmm-nav-toggle qqmm-nav-white"><i></i></a>');
+		$('#page').prepend('<div id="qsmm-offcanvas" />');
+		$('#page').prepend('<a href="#" class="js-qsmm-nav-toggle qsmm-nav-toggle qsmm-nav-white"><i></i></a>');
 		var clone1 = $('.menu-1 > ul').clone();
-		$('#qqmm-offcanvas').append(clone1);
+		$('#qsmm-offcanvas').append(clone1);
 		var clone2 = $('.menu-2 > ul').clone();
-		$('#qqmm-offcanvas').append(clone2);
+		$('#qsmm-offcanvas').append(clone2);
 
-		$('#qqmm-offcanvas .has-dropdown').addClass('offcanvas-has-dropdown');
-		$('#qqmm-offcanvas')
+		$('#qsmm-offcanvas .has-dropdown').addClass('offcanvas-has-dropdown');
+		$('#qsmm-offcanvas')
 			.find('li')
 			.removeClass('has-dropdown');
 
@@ -57,7 +57,7 @@
 			if ( $('body').hasClass('offcanvas') ) {
 
     			$('body').removeClass('offcanvas');
-    			$('.js-qqmm-nav-toggle').removeClass('active');
+    			$('.js-qsmm-nav-toggle').removeClass('active');
 				
 	    	}
 		});
@@ -66,7 +66,7 @@
 
 	var burgerMenu = function() {
 
-		$('body').on('click', '.js-qqmm-nav-toggle', function(event){
+		$('body').on('click', '.js-qsmm-nav-toggle', function(event){
 			var $this = $(this);
 
 
@@ -145,21 +145,21 @@
 	var tabs = function() {
 
 		// Auto adjust height
-		$('.qqmm-tab-content-wrap').css('height', 0);
+		$('.qsmm-tab-content-wrap').css('height', 0);
 		var autoHeight = function() {
 
 			setTimeout(function(){
 
-				var tabContentWrap = $('.qqmm-tab-content-wrap'),
-					tabHeight = $('.qqmm-tab-nav').outerHeight(),
+				var tabContentWrap = $('.qsmm-tab-content-wrap'),
+					tabHeight = $('.qsmm-tab-nav').outerHeight(),
 					formActiveHeight = $('.tab-content.active').outerHeight(),
 					totalHeight = parseInt(tabHeight + formActiveHeight + 90);
 
 					tabContentWrap.css('height', totalHeight );
 
 				$(window).resize(function(){
-					var tabContentWrap = $('.qqmm-tab-content-wrap'),
-						tabHeight = $('.qqmm-tab-nav').outerHeight(),
+					var tabContentWrap = $('.qsmm-tab-content-wrap'),
+						tabHeight = $('.qsmm-tab-nav').outerHeight(),
 						formActiveHeight = $('.tab-content.active').outerHeight(),
 						totalHeight = parseInt(tabHeight + formActiveHeight + 90);
 
@@ -174,7 +174,7 @@
 
 
 		// Click tab menu
-		$('.qqmm-tab-nav a').on('click', function(event){
+		$('.qsmm-tab-nav a').on('click', function(event){
 			
 			var $this = $(this),
 				tab = $this.data('tab');
@@ -182,14 +182,14 @@
 			$('.tab-content')
 				.addClass('animated-fast fadeOutDown');
 
-			$('.qqmm-tab-nav li').removeClass('active');
+			$('.qsmm-tab-nav li').removeClass('active');
 			
 			$this
 				.closest('li')
 					.addClass('active')
 
 			$this
-				.closest('.qqmm-tabs')
+				.closest('.qsmm-tabs')
 					.find('.tab-content[data-tab-content="'+tab+'"]')
 					.removeClass('animated-fast fadeOutDown')
 					.addClass('animated-fast active fadeIn');
@@ -230,7 +230,7 @@
 
 	// Loading page
 	var loaderPage = function() {
-		$(".qqmm-loader").fadeOut("slow");
+		$(".qsmm-loader").fadeOut("slow");
 	};
 
 	var counter = function() {
@@ -242,8 +242,8 @@
 	};
 
 	var counterWayPoint = function() {
-		if ($('#qqmm-counter').length > 0 ) {
-			$('#qqmm-counter').waypoint( function( direction ) {
+		if ($('#qsmm-counter').length > 0 ) {
+			$('#qsmm-counter').waypoint( function( direction ) {
 										
 				if( direction === 'down' && !$(this.element).hasClass('animated') ) {
 					setTimeout( counter , 400);					
@@ -255,7 +255,7 @@
 
 	var sliderMain = function() {
 		
-	  	$('#qqmm-hero .flexslider').flexslider({
+	  	$('#qsmm-hero .flexslider').flexslider({
 			animation: "fade",
 			slideshowSpeed: 5000,
 			directionNav: true,
@@ -274,9 +274,9 @@
 
 	  	});
 
-	  	$('#qqmm-hero .flexslider .slides > li').css('height', $(window).height());	
+	  	$('#qsmm-hero .flexslider .slides > li').css('height', $(window).height());	
 	  	$(window).resize(function(){
-	  		$('#qqmm-hero .flexslider .slides > li').css('height', $(window).height());	
+	  		$('#qsmm-hero .flexslider .slides > li').css('height', $(window).height());	
 	  	});
 
 	};
